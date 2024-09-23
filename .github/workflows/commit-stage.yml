@@ -4,7 +4,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: polarbookshop/quote-function
+  IMAGE_NAME: lfriboulet/quote-function
   VERSION: ${{ github.sha }}
 
 jobs:
